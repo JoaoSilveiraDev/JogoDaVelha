@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+.cabecalho{
+    height: 10%;
+    background-color: rgb(133, 217, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cabecalho__titulo{
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+}
+.apresentacao{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5%;
+    background-color: blanchedalmond;
+}
+.apresentacao__div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5%;
+}
+.botao{
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+    font-size: 30px;
+
+}
+.botao__verificar{
+    height: 70px;
+    width: 100px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+.rodape{
+    height: 10%;
+    background-color: rgb(133, 217, 255);
+}
